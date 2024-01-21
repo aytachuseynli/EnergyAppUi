@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/newsCard"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    android:layout_width="161dp"
+    android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:id="@+id/newsImage"
+        android:layout_width="161dp"
+        android:layout_height="161dp"
+        android:contentDescription="@string/news1"
+        android:src="@drawable/news1_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/newsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:fontFamily="@font/sfprodisplayregular"
+        android:padding="15dp"
+        android:text="@string/news1"
+        android:textColor="@color/white"
+        android:textSize="11sp" />
+
+
+</androidx.cardview.widget.CardView>

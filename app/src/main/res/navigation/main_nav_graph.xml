@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/homePageFragment">
+
+    <fragment
+        android:id="@+id/analysisPageFragment"
+        android:name="com.aytachuseynli.energyappui.ui.fragments.AnalysisPage.AnalysisPageFragment"
+        android:label="fragment_analysis_page"
+        tools:layout="@layout/fragment_analysis_page" />
+    <fragment
+        android:id="@+id/morePageFragment"
+        android:name="com.aytachuseynli.energyappui.ui.fragments.MorePageFragment"
+        android:label="fragment_more_page"
+        tools:layout="@layout/fragment_more_page" >
+        <action
+            android:id="@+id/action_morePageFragment_to_faqPageFragment"
+            app:destination="@id/toFaq" />
+        <action
+            android:id="@+id/toSafety"
+            app:destination="@id/safetyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/payingsPageFragment"
+        android:name="com.aytachuseynli.energyappui.ui.fragments.PayingsPageFragment"
+        android:label="fragment_payings_page"
+        tools:layout="@layout/fragment_payings_page" >
+        <action
+            android:id="@+id/action_payingsPageFragment_to_setLimitFragment"
+            app:destination="@id/setLimitFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homePageFragment"
+        android:name="com.aytachuseynli.energyappui.ui.fragments.HomePageFragment"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" />
+    <fragment
+        android:id="@+id/servicesPageFragment"
+        android:name="com.aytachuseynli.energyappui.ui.fragments.ServicesPageFragment"
+        android:label="fragment_services_page"
+        tools:layout="@layout/fragment_services_page" />
+    <fragment
+        android:id="@+id/toFaq"
+        android:name="com.aytachuseynli.energyappui.ui.fragments.FaqPageFragment"
+        android:label="fragment_faq_page"
+        tools:layout="@layout/fragment_faq_page" />
+    <fragment
+        android:id="@+id/setLimitFragment"
+        android:name="com.aytachuseynli.energyappui.ui.fragments.SetLimitFragment"
+        android:label="fragment_set_limit"
+        tools:layout="@layout/fragment_set_limit" />
+    <fragment
+        android:id="@+id/fragmentProfile"
+        android:name="com.aytachuseynli.energyappui.ui.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/safetyFragment"
+        android:name="com.aytachuseynli.energyappui.ui.fragments.SafetyFragment"
+        android:label="fragment_safety"
+        tools:layout="@layout/fragment_safety" />
+</navigation>

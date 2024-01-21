@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_blue">#0B2447</color>
+    <color name="gray">#D9D9D9</color>
+    <color name="light_red">#EA5455</color>
+    <color name="blue">#294D8C</color>
+    <color name="cardview_gray">#D9D9D9</color>
+    <color name="limit_card">#091E3A</color>
+    <color name="light_green">#A8C5B7</color>
+    <color name="light_gray">#002B5B</color>
+    <color name="green">#33CA65</color>
+    <color name="red">#EA5455</color>
+    <color name="auto_bg_color">#A8C5B7</color>
+    <color name="tab_item_color">#F0F4EF</color>
+
+
+</resources>

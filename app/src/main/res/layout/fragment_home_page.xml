@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_shape"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomePageFragment">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbarHome">
+
+
+
+        <ImageView
+            android:id="@+id/homeBg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/bg_shape"/>
+
+
+        <ImageView
+            android:id="@+id/logoBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo_merchant"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:src="@drawable/rectangle_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/yourUseHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/your_use"
+            android:fontFamily="@font/sfprodisplaybold"
+            android:textColor="@color/dark_blue"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/your_use_amount"
+            android:textColor="@color/dark_blue"
+            android:textSize="36sp"
+            android:fontFamily="@font/sfprodisplaybold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/yourUseHome" />
+
+        <TextView
+            android:id="@+id/numberHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/number"
+            android:textColor="@color/dark_blue"
+            android:textSize="18sp"
+            android:fontFamily="@font/sfprodisplaybold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/limitExceedHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/sfprodisplaybold"
+            android:text="@string/limit_exceed"
+            android:textColor="@color/dark_blue"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/danger_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/powerAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="60dp"
+            android:text="@string/power"
+            android:textColor="@color/dark_blue"
+            android:textSize="36sp"
+            android:fontFamily="@font/sfprodisplaybold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/numberHome" />
+
+        <TextView
+            android:id="@+id/powerUnitHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="96dp"
+            android:text="@string/power_unit"
+            android:fontFamily="@font/sfprodisplaybold"
+            android:textColor="@color/dark_blue"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/powerAmount"
+            app:layout_constraintTop_toBottomOf="@+id/powerAmount" />
+
+        <Button
+            android:id="@+id/increaseBalanceHome"
+            android:layout_width="181dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="36dp"
+            android:backgroundTint="@color/dark_blue"
+            android:textSize="16sp"
+            android:text="@string/increase_balance1"
+            android:fontFamily="@font/sfprodisplaybold"
+            app:layout_constraintBottom_toBottomOf="@+id/transitionPayment"
+            app:layout_constraintEnd_toStartOf="@+id/transitionPayment"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/transitionPayment"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/transitionPayment"
+            android:layout_width="176dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="16dp"
+            android:textSize="16sp"
+            android:backgroundTint="@color/cardview_gray"
+            android:fontFamily="@font/sfprodisplaybold"
+            android:text="@string/payments"
+            android:textColor="@color/dark_blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/powerUnitHome" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvEnergy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+            app:spanCount="1"
+            android:orientation="horizontal"
+            tools:listitem="@layout/item_energy"
+            android:layout_marginLeft="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/transitionPayment" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/adsCard"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/cardview_gray"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rvEnergy">
+
+            <TextView
+                android:id="@+id/friendWin"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:fontFamily="@font/sfprodisplaybold"
+                android:text="@string/friend_win"
+                android:textColor="@color/dark_blue"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/inviteFriend"
+                android:layout_width="298dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/sfprodisplaymedium"
+                android:gravity="center"
+                android:text="@string/win"
+                android:textColor="@color/dark_blue"
+                android:textSize="13sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/gift_img" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/linkCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/cardview_gray"
+                android:padding="3dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="2dp">
+
+                    <TextView
+                        android:id="@+id/linkText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_link"
+                        android:padding="3dp"
+                        android:text="@string/link"
+                        android:textSize="10sp" />
+
+
+                    <ImageView
+                        android:id="@+id/linkIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:background="@color/cardview_gray"
+                        android:src="@drawable/share" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/newsHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/sfprodisplaybold"
+            android:text="@string/news_home"
+            android:textColor="@color/dark_blue"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/rvNews"
+            app:layout_constraintTop_toBottomOf="@id/adsCard" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvNews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:listitem="@layout/item_news">
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

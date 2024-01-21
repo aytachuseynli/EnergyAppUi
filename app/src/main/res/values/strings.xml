@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Crocusoft_Project1</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="main_page">Ana səhifə</string>
+    <string name="news_home">Xəbərlər</string>
+
+
+    <!--set limit fragment-->
+    <string name="limit">Siz limiti təyin etdiniz</string>
+    <string name="electric_energy">Elektrik enerjisi</string>
+    <string name="balance">Balans bu məbləğə düşəndə</string>
+    <string name="increase_balance">Balansı artırın</string>
+
+    <!--profile fragment-->
+    <string name="profile">Profil</string>
+    <string name="welcome">Xoş gəlmisən, Orxan!</string>
+    <string name="name_surname">Orkhan Allahverdiyev</string>
+    <string name="my_profile">Mənim profilim</string>
+    <string name="about_app">Tətbiq haqqında</string>
+    <string name="settings">Tənzimləmələr</string>
+    <string name="exit">Çıxış</string>
+
+    <!--home page fragment-->
+    <string name="your_use">Sizin sərfiyyat</string>
+    <string name="your_use_amount">25.98₼</string>
+    <string name="number">№4237492384sk2</string>
+    <string name="power">344.45</string>
+    <string name="power_unit">KW/s</string>
+    <string name="limit_exceed">limiti keçmisiniz</string>
+    <string name="increase_balance1">Balansı artırmaq</string>
+    <string name="payments">Ödənişlərə keçid</string>
+    <string name="energy">Ortalama enerji İstehlakı</string>
+    <string name="friend_win">Dostunu çağır işıq qazan</string>
+    <string name="win">Hər dəvət olunan dosta görə səndə qazan, o da qazansın</string>
+    <string name="link">https://invite.azerishiq.az/Ohs69OhHBhd9nj</string>
+    <string name="news">Xəbərlər</string>
+    <string name="news1">Prezident İlham Əliyev Mingəçevir şəhərinin elektrik paylayıcı şəbəkəsinin Avtomatik İdarəetmə...</string>
+    <string name="news2">Ağcabədinin Pərioğullar və Hacıbədəlli kəndlərinin elektrik şəbəkəsi yenidən qurulur.</string>
+
+    <!--services fragment-->
+    <string name="people">Əhali abonentinin enerji təchizatı şəbəkəsinə qoşulması</string>
+    <string name="calculator">Kalkulyatorlar</string>
+    <string name="connection_fee">Qoşulma Haqqının Onlayn Ödəlməsi</string>
+    <string name="debt">Borcun araşdırılması və borcun olmaması (və ya olması) barədə sənədin verilməsi</string>
+    <string name="abonent_history">Abonentin geniş tarixçəsinin verilməsi</string>
+    <string name="peple_rename">Əhali istehlakçısının ad dəyişdirilməsi</string>
+    <string name="load_calculate">Yük hesabatının hazırlanması</string>
+    <string name="people_balance">İstehlakçının balansında olan elektrik şəbəkələrinə və avadanlıqlarına texniki xidmətin göstərilməsi</string>
+
+    <!--payings fragment-->
+    <string name="pay">Ödənişlər</string>
+    <string name="add_auto">Add auto Top-Up</string>
+    <string name="show_balance">25.98 ₼</string>
+    <string name="pay_date">14.04.2023</string>
+
+
+    <!--others fragment-->
+    <string name="others">Digər</string>
+    <string name="safety_rules">Təhlükəsizlik qaydaları</string>
+    <string name="questions">Tez-tez verilən suallar</string>
+    <string name="electron_app">Elektron Müraciət</string>
+    <string name="regional_locate">Regional ünvanlarımız</string>
+    <string name="customer_service">Müştəri xidmətləri</string>
+    <string name="info_free">Sərbəst güclər (info)</string>
+    <string name="bye">это пока не надо, не добавляй его</string>
+
+
+    <!--faq fragment-->
+    <string name="electic_supply">Elektrik Təchizatı şəbəkəsinə qoşulmaq üçün onlayn müraciət edə bilərəm?</string>
+    <string name="online_payment">Elektrik Təchizatı şəbəkəsinə qoşulmaq üçün qoşulma haqqını onlayn ödəyə bilərəm?</string>
+    <string name="apply">Elektrik Təchizatı şəbəkəsinə qoşulmaq üçün hara müraciət edə bilərəm?</string>
+    <string name="technic_document">Texniki şərt almaq üçün hansı sənədlər tələb olunur?</string>
+    <string name="money">Elektrik Təchizatı şəbəkəsinə qoşulmaq üçün nə qədər vəsait ödəməliyəm?</string>
+    <string name="increase_power">Texniki şərtim var güc artırmaq istəyirəm, nə etməliyəm?</string>
+    <string name="refusal">Enerji təchizatı müəssisəsi müraciətin icrasından imtina edə bilərmi?</string>
+    <string name="etm">Tikinti-quraşdırma işlərinin aparılması üçün ETM-ə qoşulma haqqından başqa əlavə vəsait ödənilirmi?</string>
+
+    <!--Analysis fragment-->
+    <string name="main">Əsas</string>
+    <string name="pays">Ödəmələr</string>
+    <string name="services">Xidmətlər</string>
+    <string name="analys_view">Göstəricilər</string>
+    <string name="more">Tez-tez verilən suallar</string>
+    <string name="daily_use">Avg Daily Energy Use</string>
+    <string name="monthly_use">Avg Monthly Energy Use</string>
+    <string name="predicted_use">Predicted value for next day</string>
+
+    <!--safety rules fragment-->
+    <string name="home_energy_analysis">Home Energy Analysis</string>
+    <string name="yearly">Yearly</string>
+    <string name="monthly">Monthly</string>
+    <string name="energy_use">Avg Monthly Energy Use</string>
+    <string name="predict">Predicted value for next day</string>
+
+
+</resources>
