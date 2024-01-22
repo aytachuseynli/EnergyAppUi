@@ -19,13 +19,17 @@ class ServicesPageFragment : BaseFragment<FragmentServicesPageBinding>(FragmentS
         serviceAdapter.submitList(
             arrayListOf(
                 ServicesList(1, "Əhali abonentinin enerji təchizatı şəbəkəsinə qoşulması", "document_icon"),
-                ServicesList(2, "Qoşulma Haqqının Onlayn Ödəlməsi", "qosulma"),
-                ServicesList(4, "Borcun araşdırılması və borcun olmaması (və ya olması) barədə sənədin verilməsi", "payment_icon"),
+                ServicesList(2, "Qoşulma Haqqının Onlayn Ödəlməsi", "payment_icon"),
+                ServicesList(4, "Borcun araşdırılması və borcun olmaması (və ya olması) barədə sənədin verilməsi", "print_icon"),
                 ServicesList(3, "Kalkulyatorlar", "calculate_icon"),
-                ServicesList(5, "Əhali istehlakçısının ad dəyişdirilməsi", "print_icon"),
-                ServicesList(6, "Abonentin geniş tarixçəsinin verilməsi", "note_icon"),
-                ServicesList(7, "Yük hesabatının hazırlanması", "process_icon"),
-                ServicesList(8, "İstehlakçının balansında olan elektrik şəbəkələrinə və avadanlıqlarına texniki xidmətin göstərilməsi", "table_icon")
+                ServicesList(5, "Əhali istehlakçısının ad dəyişdirilməsi", "note_icon"),
+                ServicesList(6, "Abonentin geniş tarixçəsinin verilməsi", "process_icon"),
+                ServicesList(7, "Yük hesabatının hazırlanması", "table_icon"),
+                ServicesList(8, "İstehlakçının balansında olan elektrik şəbəkələrinə və avadanlıqlarına texniki xidmətin göstərilməsi", "connect_icon"),
+                ServicesList(9, "Elektrik təchizatı sistemlərinin layihələndirilməsi və quraşdırılma işləri", "list_icon"),
+                ServicesList(10, "Abonent kodunun PASSİV və AKTİV olunması üçün müraciətlərin qəbulu", "activate_icon"),
+                ServicesList(11, "Çoxmənzilli binalarda yaşayış mənzillərinin qeydiyyata alınması", "register_icon"),
+                ServicesList(12, "Məcburi köçkün qrupuna aid abonentlərdən müraciətlərin qəbulu", "appeal_icon")
             )
         )
         setAdapter()

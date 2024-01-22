@@ -27,7 +27,7 @@ class ServicesAdapter : ListAdapter<ServicesList, ServicesAdapter.ServiceViewHol
                     .load(resourceId)
                     .into(img)
                 txt.text = item.text
-                setBgColor(binding.bg, context, resourceId)
+               setBgColor(binding.bg, context, resourceId)
             }
         }
 
